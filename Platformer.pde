@@ -66,7 +66,7 @@ PImage[] hitblock;
 PFont pixelFont;
 
 void setup() {
-  size(640, 640);
+  size(640, 640, P2D);
   frameRate(frameMultiplier);
   Fisica.init(this);
   loadAssets();
